@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="tree-and-foliage-wind-shader"
+run/main_scene="uid://cxx4md5j63xq4"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="viewport"
 
 [dotnet]
 
