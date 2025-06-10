@@ -17,3 +17,7 @@ config/icon="res://icon.svg"
 [dotnet]
 
 project/assembly_name="tree-and-foliage-wind-shader"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
