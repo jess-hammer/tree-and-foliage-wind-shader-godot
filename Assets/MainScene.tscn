@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://cxx4md5j63xq4"]
+[gd_scene load_steps=6 format=3 uid="uid://cxx4md5j63xq4"]
 
 [ext_resource type="Material" uid="uid://b74xeffooabws" path="res://Assets/WindyTreeMaterial.tres" id="1_aeemo"]
 [ext_resource type="Texture2D" uid="uid://5nnpitd5x70f" path="res://Assets/TestTree.png" id="1_cuele"]
+[ext_resource type="Material" uid="uid://cdf3br84yrhdd" path="res://Assets/WindyTreeMaterialPixelised.tres" id="3_rcc8b"]
 [ext_resource type="Material" uid="uid://dj32d4xqutnhf" path="res://Assets/WindyBushMaterial.tres" id="3_rpk87"]
 [ext_resource type="Texture2D" uid="uid://bpca6blspjdu7" path="res://Assets/TestBush.png" id="4_rcc8b"]
 
@@ -21,6 +22,11 @@ zoom = Vector2(5, 5)
 [node name="TestTree" type="Sprite2D" parent="."]
 material = ExtResource("1_aeemo")
 position = Vector2(1, -34)
+texture = ExtResource("1_cuele")
+
+[node name="TestTreePixelised" type="Sprite2D" parent="."]
+material = ExtResource("3_rcc8b")
+position = Vector2(-45, -34)
 texture = ExtResource("1_cuele")
 
 [node name="TestBush" type="Sprite2D" parent="."]
